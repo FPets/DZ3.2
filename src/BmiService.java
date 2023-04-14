@@ -1,9 +1,10 @@
 public class BmiService {
-    public double calculate(double a, double b) {
+    public double calculate(double weight, double hight) {
         double result;
-        if (a>=1) {
-            result = a/(b*2);
-        }else { result= 0;
+        if (weight >= 1) {
+            result = weight / (hight * 2);
+        } else {
+            result = 0;
         }
         return result;
     }
